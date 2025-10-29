@@ -13,9 +13,3 @@ document.addEventListener("click", (e) => {
     navbarNav.classList.remove("active");
   }
 });
-
-// Pastikan halaman selalu mulai dari Beranda saat pertama dibuka
-window.addEventListener("load", () => {
-  // Scroll ke paling atas (hero section)
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
